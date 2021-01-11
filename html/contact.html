@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en" class="h-100">
+  <head>
+    <title>Contact</title>
+<!--    styles sheet-->
+    <link href="../css/style.css" rel="stylesheet" />
+<!--    use bootstrap library to get less css for more pretty design-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+<!--    use font-awesome library for the icon-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA==" crossorigin="anonymous" />
+
+    <script src="../javascript/contact.js"></script>
+    <script src="../javascript/footer.js"></script>
+  </head>
+  <body class="d-flex flex-column h-100">
+<!--  navbar with the buttons Home About and Contact-->
+    <nav class="navbar navbar-expand navbar-light bg-light">
+      <div class="container-fluid">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse row" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item col">
+              <a class="nav-link active" style="text-align: center" aria-current="page" href="index.html">Home</a>
+            </li>
+            <li class="nav-item col">
+              <a class="nav-link" style="text-align: center" href="about.html">About</a>
+            </li>
+            <li class="nav-item col">
+              <a class="nav-link" style="text-align: center" href="contact.html">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <div class="container">
+      <div class="mt-4 mb-4 row justify-content-center">
+
+        <div class="mt-4 mb-3 col-6">
+          <h2>Contact Me</h2>
+          <!--first name field mark as required by a red asterisk -->
+          <form class="mt-4 mb-3" id="form">
+            <div class="mb-3">
+              <label class="form-label" for="fname"><span style="color: red; font-weight: bold">*</span>First Name</label>
+              <input class="form-control formInput"  type="text" id="fname" name="firstname" placeholder="Your name.." required>
+            </div>
+            <!--last name field  -->
+            <div class="mb-3">
+              <label class="form-label" for="lname">Last Name</label>
+              <input class="form-control formInput" type="text" id="lname" name="lastname" placeholder="Your last name..">
+            </div>
+            <!--email field mark as required by a red asterisk -->
+            <div class="mb-3">
+              <label class="form-label" for="lemail"><span style="color: red; font-weight: bold">*</span>Email</label>
+              <input class="form-control formInput " type="text" id="lemail" name="email" placeholder="Your email.." required>
+            </div>
+            <!--Comment field mark as required by a red asterisk -->
+            <div class="mb-3">
+              <label class="form-label" for="subject"><span style="color: red; font-weight: bold">*</span>Comment</label>
+              <textarea class="form-control formInput" id="subject" name="subject" placeholder="Write something.." style="height:200px" required></textarea>
+            </div>
+            <!--country field mark as required by a red asterisk -->
+            <div class="mb-3">
+              <label class="form-label" for="country"><span style="color: red; font-weight: bold">*</span>Country</label>
+              <select class="form-select formInput" id="country" name="country" required>
+                <option value="australia">Australia</option>
+                <option value="canada">Canada</option>
+                <option value="usa">USA</option>
+                <option value="israel">Israel</option>
+              </select>
+            </div>
+             <!--Submit button-->
+            <div class="row justify-content-end">
+              <button id="submit" form="form" class="btn btn-primary col-3" type="submit" value="Submit" >Submit
+<!--              onclick="submitButton(fname,lname,lemail,subject,country )"-->
+            </div>
+
+          </form>
+        </div>
+      </div>
+    </div>
+
+    <!--  footer the link of the 3 pages : Home About and Contact and the sentence -->
+    <footer class="footer mt-auto py-3 bg-light">
+      <div class="container">
+        <p class="footer-text-left">
+          <a href="index.html" class="menu">Home</a> <span>&#124;</span>
+          <a href="about.html" class="menu">About</a> <span>&#124;</span>
+          <a href="contact.html" class="menu">Contact</a>
+        </p>
+
+        <p id="printarray">This page was built using: </p>
+      </div>
+    </footer>
+
+  </body>
+</html>
