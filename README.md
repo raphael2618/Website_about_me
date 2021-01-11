@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 # ITC_BOUSSIDAN
 =======
 # HTML,CSS and Javascript Assignment Raphael Boussidan
@@ -33,10 +33,3 @@ The project content 3 pages:
     Make the button submit disabled while one of the required fields is empty.
     
     Finally, the footer displays all the language that has been used in this project, according to an array. 
-
-
-
-
-
-
->>>>>>> da37245 (all done)
