@@ -1,6 +1,6 @@
 
 # ITC_BOUSSIDAN
-=======
+
 # HTML,CSS and Javascript Assignment Raphael Boussidan
 
 ## Introduction
