@@ -1,6 +1,6 @@
 # ITC Precourse Project 
 
-# HTML,CSS and Javascript Assignment Raphael Boussidan
+# HTML,CSS and Javascript Assignment
 
 ## Introduction
 
