@@ -1,4 +1,4 @@
-<!--  fetch the avatar and name from the github page and display it   -->
+//  fetch the avatar and name from the github page and display it
 window.addEventListener('load', () => {
     (async() => {
         const response = await fetch('https://api.github.com/users/raphael2618');
