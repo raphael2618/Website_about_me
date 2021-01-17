@@ -1,4 +1,4 @@
-<!--    function to dispay the field content of the form-->
+//function to dispay the field content of the form
 function onsubmit(event){
     const cform = document.getElementById('form');
     const formInputs = document.getElementsByClassName('formInput');
