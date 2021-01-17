@@ -1,4 +1,4 @@
-<!--  manage the next / prev button according the map display    -->
+//  manage the next / prev button according the map display 
 var active = 0;
 function next() {
     if (active < 3) { //must switch to the next
