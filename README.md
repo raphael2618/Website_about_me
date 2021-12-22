@@ -1,4 +1,4 @@
-# ITC Precourse Project 
+# Website about me
 
 # HTML,CSS and Javascript Assignment
 
